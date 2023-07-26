@@ -1,0 +1,16 @@
+ <launch>
+      
+  
+  <node pkg="circle_detection_node" type="circle_detection_node" name="circle_detection_node" output="screen" >
+  <!-- 设置参数 -->
+  
+      <param name="camera_inner_varable/fx" type="double" value="385.7967834472656"/>
+      <param name="camera_inner_varable/fy" type="double" value="326.0679931640625"/>
+      <param name="camera_inner_varable/cx" type="double" value="385.7967834472656"/>
+      <param name="camera_inner_varable/cy" type="double" value="237.22044372558594"/> 
+      <param name="target_circle_center/x" type="double" value="1"/>
+      <param name="target_circle_center/y" type="double" value="0.3"/>
+      <param name="target_circle_center/z" type="double" value="0.5"/>
+    
+  </node>
+ </launch>
